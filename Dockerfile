@@ -1,4 +1,5 @@
-FROM python:3.10-slim
+#FROM python:3.10-slim
+FROM python:3.13.0
 WORKDIR /app
 RUN apt-get update && \
     apt-get install -y ffmpeg jq python3-dev && \
